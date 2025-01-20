@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+section{
+    width: 100%;
+}
+
+.container{
+    width: 1140px;
+    margin: 0 auto;
+}
+
+.main-box{
+    display: flex;
+    align-items: center;
+}
+
+.logo, .dual-btns{
+    flex-basis: 20%;
+}
+
+.menu{
+    flex-basis: 60%;
+}
+
+.menu ul{
+    margin: 0;
+    padding: 0;
+}
+
+.menu ul li {
+    list-style-type: none;
+    display: inline-block;
+    margin-right: 45px;
+    font-size: 16px;
+    color: #0e72cc;
+}
+
+.btns-one{
+    color: white;
+    padding: 10px 20px;
+    border: 0px solid black;
+    border-radius: 15px;
+    background-color: #0e72cc;
+}
+
+.btns-two{
+    color: white;
+    padding: 10px 20px;
+    border: 0px solid black;
+    border-radius: 15px;
+    background-color: #0e72cc;
+}
